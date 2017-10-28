@@ -1,9 +1,29 @@
 h1 { 
-	font-family: 'Raleway Dots', cursive;
-	font size: 100px;
+	font-size: 50px;
 	text-align: center;
 }
 body {
 	background: linear-gradient(mistyrose, white);
 	background-repeat: no-repeat;
+}
+header {
+	font-family: 'Raleway Dots', cursive;
+	text-align: center;
+}
+ul {
+	padding: 10px;
+	font-size: 20px;
+}
+li{
+	display: inline;
+	padding: 0px 30px 0px 30px;
+}
+@media (max-width: 500px) {
+	h1 {
+		font-size: 25px;
+	}
+	li {
+		display: block;
+		padding: 5px;
+	}
 }
