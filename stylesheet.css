@@ -1,10 +1,9 @@
-h1 {
-	font-family: 'Codystar', cursive; 
-	font size: 40px;
+h1 { 
+	font-family: 'Raleway Dots', cursive;
+	font size: 100px;
 	text-align: center;
 }
 body {
-	background: url("https://imgur.com/Nu5WW0o");
-	background-size: cover;
-	background-position: center;
+	background: linear-gradient(mistyrose, white);
+	background-repeat: no-repeat;
 }
