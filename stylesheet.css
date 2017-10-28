@@ -4,5 +4,7 @@ h1 {
 	text-align: center;
 }
 body {
-	background: url("https://imgur.com/Nu5WW0o")
+	background: url("https://imgur.com/Nu5WW0o");
+	background-size: cover;
+	background-position: center;
 }
