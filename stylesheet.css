@@ -28,15 +28,21 @@ li{
 		font-size: 15px;
 	}
 }
+p {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 20px;
+	line-height: 24px;
+}
 div {
 	height: 200px;
 	border-radius: 12px;
 }
 .weddings{
-	background-image: url("https://imgur.com/vjelQ3y");
+	background-image: url("https://i.imgur.com/vjelQ3y.jpg");
 	float: left;
 }
 .birthdays{
-	background-image: url("https://imgur.com/cQgyfoZ");
+	background-image: url("https://i.imgur.com/cQgyfoZ.jpg");
 	float: right;
 }
