@@ -37,7 +37,7 @@ p {
 div {
 	height: 200px;
 	border-radius: 12px;
-	background-size: 50%;
+	background-size: contain;
 }
 .weddings{
 	background-image: url("https://i.imgur.com/vjelQ3y.jpg");
