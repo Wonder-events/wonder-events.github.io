@@ -28,3 +28,15 @@ li{
 		font-size: 15px;
 	}
 }
+div {
+	height: 200px;
+	border-radius: 12px;
+}
+.weddings{
+	background-image: url("https://i.imgur.com/vjelQ3y.jpg");
+	float: left;
+}
+.birthdays{
+	background-image: url("https://i.imgur.com/cQgyfoZ.jpg");
+	float: right;
+}
