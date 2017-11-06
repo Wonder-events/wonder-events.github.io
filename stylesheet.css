@@ -10,6 +10,10 @@ body {
 header {
 	font-family: 'Raleway Dots', cursive;
 	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 1000px;
+	border: 3px ;
 }
 ul {
 	padding: 10px;
@@ -49,7 +53,7 @@ div {
 }
 button {
 	display: inline;
-	margin-top: 100px;
+	margin-top: 1000px;
 
 }
 #Weddings {
