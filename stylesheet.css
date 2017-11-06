@@ -1,6 +1,7 @@
 h1 { 
 	font-size: 50px;
 	text-align: center;
+	padding-top: 10px;
 }
 body {
 	background: linear-gradient(mistyrose, white);
@@ -36,7 +37,7 @@ p {
 }
 div {
 	height: 200px;
-	border-radius: 12px;
+	border-radius: 10px;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
