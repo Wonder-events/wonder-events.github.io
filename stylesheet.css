@@ -47,10 +47,17 @@ div {
 }
 #weddings{
 	background-image: url("https://i.imgur.com/vjelQ3y.jpg");
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+#weddings:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
 }
 #birthdays{
 	background-image: url("https://i.imgur.com/cQgyfoZ.jpg");
 }
+
 button {
 	display: inline;
 	margin-top: 1000px;
@@ -58,5 +65,8 @@ button {
 
 }
 #Weddings {
+	margin-top: 50px;
+}
+#Birthdays {
 	margin-top: 50px;
 }
