@@ -56,6 +56,12 @@ div {
 }
 #birthdays{
 	background-image: url("https://i.imgur.com/cQgyfoZ.jpg");
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+#birthdays:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
 }
 
 button {
