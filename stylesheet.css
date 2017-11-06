@@ -47,3 +47,11 @@ div {
 #birthdays{
 	background-image: url("https://i.imgur.com/cQgyfoZ.jpg");
 }
+button {
+	display: inline;
+	margin-top: 100px;
+
+}
+#Weddings {
+	margin-top: 50px;
+}
