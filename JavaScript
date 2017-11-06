@@ -1,0 +1,8 @@
+$(document).ready(function(){
+	
+	var button = $("#contact_me");
+
+	button.on('send', function(){
+		button.html("Sent!");
+	})
+})
