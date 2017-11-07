@@ -1,5 +1,6 @@
 h1 { 
 	font-size: 50px;
+	font-weight: bold;
 	text-align: center;
 	padding-top: 20px;
 }
@@ -18,6 +19,7 @@ header {
 ul {
 	padding-bottom: 20px;
 	font-size: 20px;
+	font-weight: bold;
 }
 li{
 	display: inline;
