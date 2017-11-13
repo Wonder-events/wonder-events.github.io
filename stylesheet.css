@@ -119,7 +119,7 @@ form {
 	opacity: 0.5;
 	filter: alpha(opacity=50);
 }
-#weddingscontent, #birthdayscontent, #corporatecontent, #themedcontent{
+#weddingscontent, #birthdayscontent, #corporatecontent, #themedcontent {
 	font-family:'Raleway Dots';
 	font-weight: bold;
 	color: white;
