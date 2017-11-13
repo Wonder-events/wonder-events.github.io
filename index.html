@@ -26,21 +26,63 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-xs-12" id="weddings">
-					<p id="Weddings">Weddings</p>
+					<p id="Weddings">Weddings<br>
+						<div id="weddingscontent">We offer many packages to plan your special day...from catering to colour schemes, Wonder Events is the company for you!</div>
+					</p>
 				</div>
 				<div class="col-md-6 col-xs-12" id="birthdays">
-					<p id ="Birthdays">Birthdays</p>
+					<p id ="Birthdays">Birthdays
+						<div id="birthdayscontent">Text about birthdays</div>
+					</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-xs-12" id="corporate">
-					<p id="Corporate">Corporate</p>
+					<p id="Corporate">Corporate
+						<div id="corporatecontent">Text about corporate</div>
+					</p>
 				</div>
 				<div class="col-md-6 col-xs-12" id="themed">
-					<p id ="Themed">Themed</p>
+					<p id ="Themed">Themed
+						<div id="themedcontent">Text about themes</div>
+					</p>
 				</div>
 			</div>
 		</div>
 	</div>
+	<script>
+			$("#weddings").hover(
+				function() {
+				$("#weddingscontent").show();
+			},
+			function(){
+				$('#weddingscontent').hide();
+			}
+			);
+			$("#birthdays").hover(
+				function() {
+				$("#birthdayscontent").show();
+			},
+			function(){
+				$('#birthdayscontent').hide();
+			}
+			);
+			$("#corporate").hover(
+				function() {
+				$("#corporatecontent").show();
+			},
+			function(){
+				$('#corporatecontent').hide();
+			}
+			);
+			$("#themed").hover(
+				function() {
+				$("#themedcontent").show();
+			},
+			function(){
+				$('#themedcontent').hide();
+			}
+			);
+		</script>
 </body>
 </html>
