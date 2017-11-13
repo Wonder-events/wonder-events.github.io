@@ -111,3 +111,30 @@ form {
 	filter: alpha(opacity=50);
 }
 
+#weddingscontent, #birthdayscontent, #corporatecontent, #themedcontent{
+	font-family:'Raleway Dots';
+	font-weight: bold;
+	color: white;
+	background: black;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+	line-height: 20px;
+	padding: 10px;
+	position: absolute;
+	text-align: justify;
+	bottom: 0;
+	margin: 0 0 0 -15px;
+	height: 140px;
+	width: 570px;
+	transition: height .5s;
+	-webkit-transition: height .5s;
+	-moz-transition: height .5s;
+}
+.show-description p {
+	height: 300px;
+}
+.show-description small {
+	opacity: 1;
+}
+
