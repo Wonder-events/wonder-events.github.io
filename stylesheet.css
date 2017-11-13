@@ -36,10 +36,11 @@ li a {
 }
 
 li a:hover {
-	background-color: snow;
+	text-decoration: none;
 }
 .active {
-	background-color: snow;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 @media (max-width: 600px) {
