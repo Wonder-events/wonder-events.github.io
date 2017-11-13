@@ -67,6 +67,10 @@ div {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+form {
+	font-family: 'Arial', cursive;
+	font-size: 20px;
+}
 #weddings{
 	background-image: url("https://i.imgur.com/vjelQ3y.jpg");
 	opacity: 1.0;
@@ -106,9 +110,3 @@ div {
 	filter: alpha(opacity=50);
 }
 
-button {
-	display: inline;
-	margin-top: 1000px;
-	margin-bottom: 15px;
-
-}
