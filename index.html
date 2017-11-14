@@ -5,7 +5,6 @@
 	<link rel="stylesheet" href="./stylesheet.css" />
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
-
 	<title>Wonder Events</title>
 
 	<style>
@@ -13,39 +12,86 @@
 	</style>
 </head>
 
-<body class="container">
-		<header>
-			<h1>Wonder Events</h1>
-				<ul>
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">Packages</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="./enquiries.html">Enquiries</a></li>
-				</ul>
-		</header>
+<body>
+	<div class="header">
+		<h1>Wonder Events</h1>
+		<ul>
+			<li class="active"><a href="./index.html">Home</a></li>
+			<li><a href="#">Packages</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="./enquiries.html">Enquiries</a></li>
+		</ul>
 	</div>
-	<div class="row">
-		<div class="col-md-6 col-xs-12" id="weddings">
-			<p id="Weddings">Weddings</p>
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-xs-12" id="weddings">
+					<p id="Weddings">Weddings<br>
+						<div id="weddingscontent">We offer many packages to plan your special day...from catering to colour schemes, Wonder Events is the company for you!</div>
+					</p>
+				</div>
+				<div class="col-md-6 col-xs-12" id="birthdays">
+					<p id ="Birthdays">Birthdays
+						<div id="birthdayscontent">Text about birthdays</div>
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-xs-12" id="corporate">
+					<p id="Corporate">Corporate
+						<div id="corporatecontent">Text about corporate</div>
+					</p>
+				</div>
+				<div class="col-md-6 col-xs-12" id="themed">
+					<p id ="Themed">Themed
+						<div id="themedcontent">Text about themes</div>
+					</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-md-6 col-xs-12" id="birthdays">
-			<p id ="Birthdays">Birthdays</p>
-		</div>
-		<br>
 	</div>
-	<div class="row">
-		<div class="col-md-6 col-xs-12" id="corporate">
-			<p id="Corporate">Corporate</p>
-		</div>
-		<div class="col-md-6 col-xs-12" id="themed">
-			<p id ="Themed">Themed</p>
-		</div>
-	</div>
+<<<<<<< HEAD
 	<div class="row">
 		<div class="col-md-10 col-xs-12" id="table">
 	<h1>Where to find us</h1>
 	<iframe src="https://www.google.com/maps/d/embed?mid=18wPszRIalEHpwTBK71wsjRz0_pEBWqxT" ></iframe>
 	</div>
     </div>
+=======
+	<script>
+			$("#weddings").hover(
+				function() {
+				$("#weddingscontent").show();
+			},
+			function(){
+				$('#weddingscontent').hide();
+			}
+			);
+			$("#birthdays").hover(
+				function() {
+				$("#birthdayscontent").show();
+			},
+			function(){
+				$('#birthdayscontent').hide();
+			}
+			);
+			$("#corporate").hover(
+				function() {
+				$("#corporatecontent").show();
+			},
+			function(){
+				$('#corporatecontent').hide();
+			}
+			);
+			$("#themed").hover(
+				function() {
+				$("#themedcontent").show();
+			},
+			function(){
+				$('#themedcontent').hide();
+			}
+			);
+		</script>
+>>>>>>> f9b5e9a4dce14ae9c63073a5b9fb468d60200c30
 </body>
 </html>
