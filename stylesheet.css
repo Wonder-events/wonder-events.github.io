@@ -1,6 +1,5 @@
 h1 { 
 	font-size: 50px;
-	font-weight: bold;
 	text-align: center;
 	padding-top: 20px;
 }
@@ -9,7 +8,7 @@ h1 {
 }
 .header {
 	overflow: hidden;
-	font-family: 'Raleway Dots', cursive;
+	font-family: 'Codystar', cursive;
 	text-align: center;
 	position: fixed;
 	top: 0;
