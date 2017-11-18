@@ -71,7 +71,7 @@ body {
 	}
 }
 div {
-	padding: 50px 15px 15px 15px;
+	padding: 50px 15px ;
 	height: 300px;
 	border-radius: 10px;
 	background-size: cover;
@@ -88,23 +88,23 @@ iframe {
 	height: 150%;
 	margin-bottom: 60px;
 }
-#weddings{
+#weddings {
 	background-image: url("https://i.imgur.com/vjelQ3y.jpg");
 	text-align: center;
 }
 
-#birthdays{
+#birthdays {
 	background-image: url("https://i.imgur.com/cQgyfoZ.jpg");
 	text-align: center;
 }
 
-#corporate{
+#corporate {
 	background-image: url("https://i.imgur.com/zwa7T17.jpg");
 	margin-top: 30px;
 	text-align: center;
 }
 
-#themed{
+#themed {
 	background-image: url("https://i.imgur.com/lgAwYLd.jpg");
 	margin-top: 30px;
 	text-align: center;
@@ -146,8 +146,9 @@ small {
 	opacity: 1;
 	font-size: 15px;
 }
-h2 {
-	font-family: 'Sacramento', cursive;
+h3 {
+	font-family: 'Codystar', cursive;
+	font-weight: bold;
 }
 #table{
 	font-family: 'Raleway Dots', cursive;
@@ -159,5 +160,5 @@ h2 {
 
 #maps{
 	position: relative;
-	padding-top: 500px;
+	padding-top: 450px;
 }

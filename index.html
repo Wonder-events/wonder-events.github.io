@@ -52,13 +52,16 @@
 	</div>
 	<div class="row" id="maps">
 		<div class="col-md-10 col-xs-12" id="table">
-			<h2>Where to find us...</h2>
+			<h3>Where to find us...</h3>
 			<iframe src="https://www.google.com/maps/d/embed?mid=18wPszRIalEHpwTBK71wsjRz0_pEBWqxT" ></iframe>
 		</div>
     </div>
 
 	<script>
-		$('div').on('click', function() {$(this).toggleClass('show-description');});
+		$('#weddings').on('click', function() {$(this).toggleClass('show-description');});
+		$('#birthdays').on('click', function() {$(this).toggleClass('show-description');});
+		$('#corporate').on('click', function() {$(this).toggleClass('show-description');});
+		$('#themed').on('click', function() {$(this).toggleClass('show-description');});
 	</script>
 
 </body>
