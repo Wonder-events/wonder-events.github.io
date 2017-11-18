@@ -8,8 +8,7 @@
 	<title>Wonder Events</title>
 
 	<style>
-		@import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
-		@import url('https://fonts.googleapis.com/css?family=Codystar');
+		@import url('https://fonts.googleapis.com/css?family=Raleway+Dots|Codystar|Sacramento|Arima+Madurai');
 	</style>
 </head>
 
@@ -28,24 +27,24 @@
 			<div class="row">
 				<div class="col-md-6 col-xs-12" id="weddings">
 					<p id="Weddings">Weddings<br>
-						<div id="weddingscontent">We offer many packages to plan your special day...from catering to colour schemes, Wonder Events is the company for you!</div>
+						<small>We offer many packages to plan your special day...from catering to colour schemes, Wonder Events is the company for you!</small>
 					</p>
 				</div>
 				<div class="col-md-6 col-xs-12" id="birthdays">
-					<p id ="Birthdays">Birthdays
-						<div id="birthdayscontent">Text about birthdays</div>
+					<p id ="Birthdays">Birthdays<br>
+						<small>Text about birthdays</small>
 					</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-xs-12" id="corporate">
-					<p id="Corporate">Corporate
-						<div id="corporatecontent">Text about corporate</div>
+					<p id="Corporate">Corporate<br>
+						<small>Text about corporate</small>
 					</p>
 				</div>
 				<div class="col-md-6 col-xs-12" id="themed">
-					<p id ="Themed">Themed
-						<div id="themedcontent">Text about themes</div>
+					<p id ="Themed">Themed<br>
+						<small>Text about themes</small>
 					</p>
 				</div>
 			</div>
@@ -53,45 +52,14 @@
 	</div>
 	<div class="row" id="maps">
 		<div class="col-md-10 col-xs-12" id="table">
-	<h2>Where to find us</h2>
-	<iframe src="https://www.google.com/maps/d/embed?mid=18wPszRIalEHpwTBK71wsjRz0_pEBWqxT" ></iframe>
-	</div>
+			<h2>Where to find us...</h2>
+			<iframe src="https://www.google.com/maps/d/embed?mid=18wPszRIalEHpwTBK71wsjRz0_pEBWqxT" ></iframe>
+		</div>
     </div>
 
 	<script>
-			$("#weddings").hover(
-				function() {
-				$("#weddingscontent").show();
-			},
-			function(){
-				$('#weddingscontent').hide();
-			}
-			);
-			$("#birthdays").hover(
-				function() {
-				$("#birthdayscontent").show();
-			},
-			function(){
-				$('#birthdayscontent').hide();
-			}
-			);
-			$("#corporate").hover(
-				function() {
-				$("#corporatecontent").show();
-			},
-			function(){
-				$('#corporatecontent').hide();
-			}
-			);
-			$("#themed").hover(
-				function() {
-				$("#themedcontent").show();
-			},
-			function(){
-				$('#themedcontent').hide();
-			}
-			);
-		</script>
+		$('div').on('click', function() {$(this).toggleClass('show-description');});
+	</script>
 
 </body>
 </html>
