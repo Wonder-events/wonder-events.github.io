@@ -26,15 +26,34 @@
 		<div class="container">
 			<form name="contact_form" onsubmit="return confirm('Thank you for submitting an enquiry!');" >
 				<br>
-				First name: <br>
-				<input type=text name="firstname" placeholder="Your first name here" required><br><br>
-				Last name: <br>
-				<input type=text name="lastname" placeholder="Your last name here" required><br><br>
-				Email address: <br>
-				<input type=text name="emailaddress" placeholder="123@example.com" required><br><br>
-				Message: <br>
-				<input type=text name="message" placeholder="Your message" required><br><br>
-				<input type=submit value="Submit">
+				<div class="row" style="height:10px">
+					<div class="col-md-6 col-xs-12">
+						First name: <br>
+						<input type=text name="firstname" placeholder="Your first name here" required><br>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						Last name: <br>
+						<input type=text name="lastname" placeholder="Your last name here" required><br>
+					</div>
+				</div>
+				<div class="row" style="height:10px">
+					<div class="col-md-10 h-50">
+						Email address: <br>
+						<input type=text name="emailaddress" placeholder="123@example.com" required><br>
+					</div>
+				</div>
+				<div class="row" style="height:10px">
+					<div class="col-md-10 h-50">
+						Message: <br>
+						<input type=text name="message" placeholder="Your message" required><br>
+					</div>
+				</div>
+					<div class="row" style="height:5px">
+						<div class="col-md-1">
+							<input type=submit value="Submit">
+						</div>
+					</div>
+				</div>
 			</form>
 		</div>
 	</div>
