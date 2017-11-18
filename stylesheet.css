@@ -172,3 +172,36 @@ h3 {
 	position: relative;
 	padding-top: 50px;
 }
+footer {
+	background-color: snow;
+	padding-top: 1000px;
+	font-family: ariel;
+	font-size: 15px;
+	text-align: center;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+.fa-instagram {
+    color: #6441A5;
+}
+
+.fa-linkedin {
+    color: #007bb6;
+}
+.fa {
+    opacity: 0.7;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
