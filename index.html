@@ -58,10 +58,38 @@
     </div>
 
 	<script>
-		$('#weddings').on('mouseover', function() {$(this).toggleClass('show-description');});
-		$('#birthdays').on('mouseover', function() {$(this).toggleClass('show-description');});
-		$('#corporate').on('mouseover', function() {$(this).toggleClass('show-description');});
-		$('#themed').on('mouseover', function() {$(this).toggleClass('show-description');});
+		$('#weddings').on({
+			mouseenter: function () {
+				$(this).toggleClass('show-description');
+			},
+			mouseleave: function () {
+				$(this).toggleClass('show-description');
+			}
+		});
+		$('#birthdays').on({
+			mouseenter: function () {
+				$(this).toggleClass('show-description');
+			},
+			mouseleave: function () {
+				$(this).toggleClass('show-description');
+			}
+		});
+		$('#corporate').on({
+			mouseenter: function () {
+				$(this).toggleClass('show-description');
+			},
+			mouseleave: function () {
+				$(this).toggleClass('show-description');
+			}
+		});
+		$('#themed').on({
+			mouseenter: function () {
+				$(this).toggleClass('show-description');
+			},
+			mouseleave: function () {
+				$(this).toggleClass('show-description');
+			}
+		});
 	</script>
 
 </body>
