@@ -84,6 +84,9 @@ form {
 input {
 	width: 100%;
 }
+textarea {
+	width: 100%;
+}
 iframe {
 	margin-top: 20px;
 	position: relative;
@@ -148,6 +151,10 @@ small {
 .show-description small {
 	opacity: 1;
 	font-size: 15px;
+}
+h2 {
+	font-family: 'Sacramento', cursive;
+	font-size: 30px;
 }
 h3 {
 	font-family: 'Codystar', cursive;
