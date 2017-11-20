@@ -206,8 +206,40 @@ footer {
 	}
 	div {
 		height: 150px;
+		display: block;
 	}
-	#birthdays {
+	.main {
+		margin-top: 5px;
+	}
+	p {
+		font-size: 25px;
+	}
+	#maps {
+		padding-top: 200px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	#table {
+		height: 300px;
+	}
+	footer {
+		padding-top: 1000px;
+		font-size: 20px;
+	}
+}
+@media (max-width: 770px) {
+	h1 {
+		font-size: 30px;
+	}
+	ul {
+		font-size: 15px;
+	}
+	li {
+		display: block;
+	}
+	div {
+		height: 150px;
 		display: block;
 	}
 	.main {
