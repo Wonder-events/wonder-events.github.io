@@ -60,25 +60,6 @@ li a:hover {
 body {
 	background-color: snow;
 }
-
-@media screen (max-width: 500px) {
-	body {
-		width: 100%;
-		display: block;
-	}
-	h1 {
-		font-size: 25px;
-	}
-	li {
-		display: block;
-		padding: 5px;
-		font-size: 15px;
-	}
-	.main{
-		display: block;
-		padding: 10px;
-	}
-}
 div {
 	padding: 50px 15px ;
 	height: 300px;
@@ -174,10 +155,8 @@ h3 {
 	margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    position: relative;
 }
 #maps{
-	position: relative;
 	padding-top: 50px;
 }
 footer {
@@ -224,5 +203,30 @@ footer {
 	}
 	li {
 		display: block;
+	}
+	div {
+		height: 150px;
+	}
+	#birthdays {
+		display: block;
+	}
+	.main {
+		margin-top: 5px;
+	}
+	p {
+		font-size: 25px;
+	}
+	#maps {
+		padding-top: 200px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	#table {
+		height: 300px;
+	}
+	footer {
+		padding-top: 1000px;
+		font-size: 20px;
 	}
 }
