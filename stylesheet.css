@@ -60,7 +60,11 @@ body {
 	background-color: snow;
 }
 
-@media (max-width: 600px) {
+@media screen (max-width: 500px) {
+	body {
+		width: 100%;
+		display: block;
+	}
 	h1 {
 		font-size: 25px;
 	}
@@ -68,6 +72,10 @@ body {
 		display: block;
 		padding: 5px;
 		font-size: 15px;
+	}
+	.main{
+		display: block;
+		padding: 10px;
 	}
 }
 div {
