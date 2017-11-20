@@ -215,3 +215,14 @@ footer {
     transition: 1s;
     -webkit-transition: 1s;
 }
+@media (max-width: 480px) {
+	h1 {
+		font-size: 30px;
+	}
+	ul {
+		font-size: 15px;
+	}
+	li {
+		display: block;
+	}
+}
